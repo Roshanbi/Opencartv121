@@ -8,15 +8,7 @@ services:
     networks:
       - grid
       
-    
-  otel-collector:
-    image: otel/opentelemetry-collector
-    ports:
-      - "4317:4317"  # For gRPC
-      - "55681:55681"  # For HTTP
-    command: ["--config=/etc/otel_collector_config.yaml"]
-    volumes:
-      - ./otel_collector_config.yaml:/etc/otel_collector_config.yaml
+   
 
   node-chrome:
     image: selenium/node-chrome
