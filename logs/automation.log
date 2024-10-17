@@ -258,3 +258,37 @@
 			[TestNG] Running:
   C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
 
+2024-10-17 12:33:01 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:33:24 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:34:18 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:34:19 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-17 12:34:54 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:34:55 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-17 12:36:57 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:40:09 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:40:09 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-17 12:40:12 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-17 12:40:41 INFO  TC006_EndToEndTest:134 -
+			***Ending TC006_EndToEndTest***
+2024-10-17 12:41:13 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-17 12:41:15 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-17 12:41:40 INFO  TC006_EndToEndTest:134 -
+			***Ending TC006_EndToEndTest***
