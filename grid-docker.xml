@@ -11,9 +11,11 @@
 		<parameter name="os" value="Linux" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testCases.TC001_AccountRegistrationTest"/>
-			 <class name="testCases.TC002_LoginTest"/>
-			 
+			<!--<class name="testCases.TC001_AccountRegistrationTest"/>-->
+			<!-- <class name="testCases.TC002_LoginTest"/>-->
+			 <!-- <class name="testCases.TC004_SearchProductTest"/>-->
+			  <!-- <class name="testCases.TC005_AddToCartTest"/>-->
+			 <class name="testCases.TC006_EndToEndTest"/>
 		</classes>
 	</test> 
 	
@@ -24,7 +26,9 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest"/>
 			 <class name="testCases.TC002_LoginTest"/>
-			  
+			   <class name="testCases.TC004_SearchProductTest"/>
+			    <class name="testCases.TC005_AddToCartTest"/>
+			  <class name="testCases.TC006_EndToEndTest"/>
 		</classes>
 	</test>-->
 	

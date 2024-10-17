@@ -27,6 +27,7 @@ import org.apache.logging.log4j.Logger;   //log4j
 public class BaseClass {
 	
 	//reusable methods
+	//public static WebDriver driver; //for capture screenshot make it static other wise remove static
 	public static WebDriver driver;//we created Baseclass obj in Extendreport that is another driver there so it will be conflict so making static
 	public Logger logger;
 	public Properties p;
@@ -96,7 +97,6 @@ public class BaseClass {
 	    driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(p.getProperty("appURL"));//reading url from properties file
-		//driver.get("https://tutorialsninja.com/demo/");
 		driver.manage().window().maximize();
 		
 	}

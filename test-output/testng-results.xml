@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T13:24:43 BST" name="Master Suite" finished-at="2024-10-14T13:24:57 BST" duration-ms="13666">
+  <suite started-at="2024-10-17T12:23:18 BST" name="grid-docker Suite" finished-at="2024-10-17T12:23:23 BST" duration-ms="5117">
     <groups>
-      <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b408dc3]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@293d0107]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b408dc3]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@293d0107]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Regression -->
+      <group name="master">
+        <method signature="TC006_EndToEndTest.verify_EndToEndTest()[pri:0, instance:testCases.TC006_EndToEndTest@366ef90e]" name="verify_EndToEndTest" class="testCases.TC006_EndToEndTest"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2024-10-14T13:24:43 BST" name="Test" finished-at="2024-10-14T13:24:57 BST" duration-ms="13666">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@293d0107]" started-at="2024-10-14T13:24:54 BST" name="setUp" finished-at="2024-10-14T13:24:55 BST" duration-ms="1447" status="PASS">
+    <test started-at="2024-10-17T12:23:18 BST" name="Linux-Chrome" finished-at="2024-10-17T12:23:23 BST" duration-ms="5117">
+      <class name="testCases.TC006_EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_EndToEndTest@366ef90e]" started-at="2024-10-17T12:23:19 BST" name="setUp" finished-at="2024-10-17T12:23:23 BST" duration-ms="4642" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
             <param index="1">
@@ -30,44 +23,140 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=129.0.6668.58)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a16d07de4a2da3ca63cc245dff032bcb, get {url=http://localhost/opencart/upload/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.6668.58, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a16d07de4a2da3ca63cc245dff032bcb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=129.0.6668.58)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a16d07de4a2da3ca63cc245dff032bcb, get {url=http://localhost/opencart/upload/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.6668.58, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a16d07de4a2da3ca63cc245dff032bcb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at testBase.BaseClass.setUp(BaseClass.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@293d0107]" started-at="2024-10-14T13:24:55 BST" name="verify_Login" finished-at="2024-10-14T13:24:57 BST" duration-ms="1354" status="PASS">
+        <test-method signature="verify_EndToEndTest()[pri:0, instance:testCases.TC006_EndToEndTest@366ef90e]" started-at="2024-10-17T12:23:23 BST" name="verify_EndToEndTest" finished-at="2024-10-17T12:23:23 BST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=129.0.6668.58)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a16d07de4a2da3ca63cc245dff032bcb, get {url=http://localhost/opencart/upload/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.6668.58, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a16d07de4a2da3ca63cc245dff032bcb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=129.0.6668.58)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a16d07de4a2da3ca63cc245dff032bcb, get {url=http://localhost/opencart/upload/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.6668.58, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a16d07de4a2da3ca63cc245dff032bcb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at testBase.BaseClass.setUp(BaseClass.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@293d0107]" started-at="2024-10-14T13:24:57 BST" name="tearDown" finished-at="2024-10-14T13:24:57 BST" duration-ms="381" status="PASS">
+        </test-method> <!-- verify_EndToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_EndToEndTest@366ef90e]" started-at="2024-10-17T12:23:23 BST" name="tearDown" finished-at="2024-10-17T12:23:23 BST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b408dc3]" started-at="2024-10-14T13:24:44 BST" name="setUp" finished-at="2024-10-14T13:24:49 BST" duration-ms="5515" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b408dc3]" started-at="2024-10-14T13:24:49 BST" name="verify_account_Registration" finished-at="2024-10-14T13:24:53 BST" duration-ms="4399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5b408dc3]" started-at="2024-10-14T13:24:53 BST" name="tearDown" finished-at="2024-10-14T13:24:54 BST" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Master Suite -->
+      </class> <!-- testCases.TC006_EndToEndTest -->
+    </test> <!-- Linux-Chrome -->
+  </suite> <!-- grid-docker Suite -->
 </testng-results>
