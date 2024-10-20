@@ -19,6 +19,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.http.ClientConfig;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -73,13 +74,14 @@ public class BaseClass {
 		 			switch(br.toLowerCase())
 		 			{
 		 			case "chrome": capabilities.setBrowserName("chrome");break;
-		 			case "edge":capabilities.setBrowserName("microsoftedge");break;
+		 			case "edge":capabilities.setBrowserName("MicrosoftEdge");break;
 		 			case "firefox": capabilities.setBrowserName("firefox");break;
 		 			default: System.out.println("No matching browser");return;
 		 			}
 		 			
-		 			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);//created driver for remote execution convert in url format and add 2nd parameter as capabilites obj
-		 			
+		 			//created driver for remote execution convert in url format and add 2nd parameter as capabilites obj
+		 			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+		 				 					 			
 			 }
 	 
 	 //local machine
