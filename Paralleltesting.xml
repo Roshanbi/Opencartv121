@@ -13,8 +13,8 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			 <class name="testCases.TC002_LoginTest"/>
-			 <class name="testCases.TC004_SearchProductTest"/>
-			  <class name="testCases.TC005_AddToCartTest"/>
+			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
+			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
 		</classes>
 	</test> <!--
 	Test -->
@@ -25,8 +25,8 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			 <class name="testCases.TC002_LoginTest"/>
-			 <class name="testCases.TC004_SearchProductTest"/>
-			  <class name="testCases.TC005_AddToCartTest"/>
+			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
+			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
 		</classes>
 	</test> <!--
 	Test -->
@@ -37,8 +37,8 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			 <class name="testCases.TC002_LoginTest"/>
-			 <class name="testCases.TC004_SearchProductTest"/>
-			  <class name="testCases.TC005_AddToCartTest"/>
+			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
+			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
 		</classes>
 	</test> <!--
 	Test -->

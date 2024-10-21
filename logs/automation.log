@@ -220,3 +220,115 @@
 			***validating MY Account Page****
 2024-10-20 23:25:37 INFO  TC002_LoginTest:44 -
 			***finished TC002_LoginTest***
+2024-10-20 23:49:12 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\Paralleltesting.xml"
+2024-10-20 23:49:13 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\Paralleltesting.xml
+
+2024-10-20 23:49:17 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:49:17 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:49:17 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:49:17 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:49:21 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:49:21 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:49:22 INFO  TC001_AccountRegistrationTest:25 -
+			..clicked on Register...
+2024-10-20 23:49:22 INFO  TC001_AccountRegistrationTest:28 -
+			...providing customer details
+2024-10-20 23:49:22 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:49:25 INFO  TC001_AccountRegistrationTest:42 -
+			..validating expected message..
+2024-10-20 23:49:25 INFO  TC001_AccountRegistrationTest:47 -
+			Test passed
+2024-10-20 23:49:25 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:49:27 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:49:31 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-20 23:49:32 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-20 23:49:32 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-20 23:49:32 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-20 23:49:33 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-20 23:49:33 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-20 23:49:37 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-20 23:49:38 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-20 23:49:38 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-20 23:49:38 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-20 23:49:39 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-20 23:49:39 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-20 23:50:57 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\Paralleltesting.xml"
+2024-10-20 23:51:01 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:51:02 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:51:02 INFO  TC001_AccountRegistrationTest:25 -
+			..clicked on Register...
+2024-10-20 23:51:02 INFO  TC001_AccountRegistrationTest:28 -
+			...providing customer details
+2024-10-20 23:51:06 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:51:06 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:51:06 INFO  TC001_AccountRegistrationTest:25 -
+			..clicked on Register...
+2024-10-20 23:51:06 INFO  TC001_AccountRegistrationTest:28 -
+			...providing customer details
+2024-10-20 23:51:08 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:51:08 INFO  TC001_AccountRegistrationTest:17 -
+			...starting TC001_Account registration test...
+2024-10-20 23:51:09 INFO  TC001_AccountRegistrationTest:42 -
+			..validating expected message..
+2024-10-20 23:51:10 INFO  TC001_AccountRegistrationTest:22 -
+			..clicked on MyAccount...
+2024-10-20 23:51:10 INFO  TC001_AccountRegistrationTest:47 -
+			Test passed
+2024-10-20 23:51:10 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:51:11 INFO  TC001_AccountRegistrationTest:65 -
+			..Finished TC001_Account Registration...
+2024-10-20 23:51:15 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-20 23:51:16 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-20 23:51:17 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-20 23:51:17 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-20 23:51:18 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-20 23:51:18 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-20 23:51:20 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-20 23:51:20 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-20 23:51:20 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-20 23:51:20 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-20 23:51:21 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-20 23:51:21 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
