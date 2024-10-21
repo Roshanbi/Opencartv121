@@ -47,6 +47,7 @@ public class TC006_EndToEndTest extends BaseClass {
 
 		MyAccountPage map = new MyAccountPage(driver);
 		map.clickLogout();
+		Thread.sleep(3000);
 
 		// Login
 		System.out.println("Login to application...");
