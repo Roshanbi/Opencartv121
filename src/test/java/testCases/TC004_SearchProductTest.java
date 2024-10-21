@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC004_SearchProductTest extends BaseClass{
 	
-@Test(groups={"master"})	
+@Test(groups={"Master"})	
 public void verify_productSearch()
 {
 	logger.info("****starting TC004_SearchProductTest****");

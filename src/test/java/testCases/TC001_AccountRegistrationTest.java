@@ -10,7 +10,11 @@ import testBase.BaseClass;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
 
-	@Test(groups= {"Sanity","Master"})//we need to add all the groups before and after classes. Eventhough you extend Base class it wont trigger.In xml file we named methods thats why only look for that method 
+	/**
+	 * We need to add all the groups before and after classes, even though you extend Base class it wont trigger.
+	 * In xml file we named methods thats why only look for that method
+	 */
+	@Test(groups= {"Sanity","Master"}) 
 	public void verify_account_Registration() {
 		
 		

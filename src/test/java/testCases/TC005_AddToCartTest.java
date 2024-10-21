@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC005_AddToCartTest extends BaseClass {
 
-	@Test(groups = { "master" })
+	@Test(groups = { "Master" })
 	public void verify_AddToCart() {
 		logger.info("*** starting TC005_AddToCartTest ***");
 		try {

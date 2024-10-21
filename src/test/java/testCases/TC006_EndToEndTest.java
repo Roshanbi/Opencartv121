@@ -14,7 +14,7 @@ import testBase.BaseClass;
 
 public class TC006_EndToEndTest extends BaseClass {
 
-	@Test(groups = { "master" })
+	@Test(groups = { "Master" })
 	public void verify_EndToEndTest() throws InterruptedException {
 		logger.info("***starting TC006_EndToEndTest***");
 		// SoftAssert for validation

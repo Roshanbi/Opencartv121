@@ -27,13 +27,18 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseClass;
 
-public class ExtentReportManager implements ITestListener {
+//public class ExtentReportManage implements ITestListener {
+//Extended BaseClass so that each report can have its own driver as static driver variable
+//having issues in running parallel test executions
+public class ExtentReportManager extends BaseClass implements ITestListener {
+	
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
 	public ExtentTest test;
 
 	String repName;
 
+	@Override
 	public void onStart(ITestContext testContext) {
 		
 		/*SimpleDateFormat df=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
@@ -65,7 +70,7 @@ public class ExtentReportManager implements ITestListener {
 		
 		List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
 		if(!includedGroups.isEmpty()) {
-		extent.setSystemInfo("Groups", includedGroups.toString());
+			extent.setSystemInfo("Groups", includedGroups.toString());
 		}
 	}
 
@@ -85,7 +90,8 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
 		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());//captureScreenshot is common for all methods so in Baseclass add capturescreen method
+			//String imgPath = new BaseClass().captureScreen(result.getName());//captureScreenshot is common for all methods so in Baseclass add capturescreen method
+			String imgPath = captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);                          //attached screenshot
 			                                                                   //we cant call directly capturescreen method so we created object for baseclass
 		} catch (IOException e1) {

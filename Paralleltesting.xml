@@ -12,7 +12,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
-			 <class name="testCases.TC002_LoginTest"/>
+			 <!--<class name="testCases.TC002_LoginTest"/>-->
 			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
 			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
 		</classes>
@@ -23,24 +23,26 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="testCases.TC001_AccountRegistrationTest" />
-			 <class name="testCases.TC002_LoginTest"/>
+			<class name="testCases.TC001_AccountRegistrationTest" /> 
+			 <!--<class name="testCases.TC002_LoginTest"/>-->
 			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
 			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
-		</classes>
-	</test> <!--
-	Test -->
+	</classes>
+	</test>
+	
+	
+	<!--Test -->
 	
 	<test  name="firefoxtest">
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
-			 <class name="testCases.TC002_LoginTest"/>
+			 <!--<class name="testCases.TC002_LoginTest"/>-->
 			 <!--<class name="testCases.TC004_SearchProductTest"/>-->
 			  <!--<class name="testCases.TC005_AddToCartTest"/>-->
-		</classes>
-	</test> <!--
+	</classes>
+	</test> <!-- 
 	Test -->
 </suite> <!--
 Suite -->

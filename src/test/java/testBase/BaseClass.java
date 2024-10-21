@@ -29,7 +29,7 @@ public class BaseClass {
 	
 	//reusable methods
 	//public static WebDriver driver; //for capture screenshot make it static other wise remove static
-	public static WebDriver driver;//we created Baseclass obj in Extendreport that is another driver there so it will be conflict so making static
+	public WebDriver driver;//we created Baseclass obj in Extendreport that is another driver there so it will be conflict so making static
 	public Logger logger;
 	public Properties p;
 	
