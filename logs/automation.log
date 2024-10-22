@@ -344,3 +344,395 @@
 			***validating MY Account Page****
 2024-10-21 14:04:59 INFO  TC002_LoginTest:44 -
 			***finished TC002_LoginTest***
+2024-10-21 14:29:44 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 14:29:45 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 14:36:33 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 14:36:33 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 14:41:56 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 14:41:57 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 17:18:47 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 17:18:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 17:19:53 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 17:19:54 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 20:04:17 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 20:04:18 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 20:16:00 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 20:16:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 20:21:39 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 20:21:40 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 20:22:36 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 20:22:37 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 20:46:01 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:46:01 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:47:02 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:47:02 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:48:46 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:48:47 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:50:42 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:50:43 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:52:10 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:52:10 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:54:11 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:54:12 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:55:47 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:55:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 20:57:59 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 20:58:00 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 21:01:52 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 21:01:53 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 21:01:56 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:01:56 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:01:57 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:01:57 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:02:01 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:02:02 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:02:02 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:02:04 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:02:05 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:02:05 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:02:05 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:02:06 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:02:06 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 21:02:50 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 21:02:50 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 21:02:53 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:02:54 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:02:54 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:02:54 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:02:58 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:02:58 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:02:58 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:03:00 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:03:01 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:03:01 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:03:01 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:03:02 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:03:02 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 21:04:44 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:04:44 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:04:47 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:04:48 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:04:48 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:04:48 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:04:52 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:04:52 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:04:52 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:04:55 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:04:55 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:04:56 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:04:56 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:04:57 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:04:57 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 21:05:20 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:05:20 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:26:34 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:26:35 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:44:08 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:44:08 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:44:13 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:44:14 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:44:14 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:44:14 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:44:17 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:44:17 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:44:17 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:44:20 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:44:20 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:44:21 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:44:21 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:44:22 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:44:22 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 21:45:12 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:45:13 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:45:17 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:45:17 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:45:18 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:45:18 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:45:20 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:45:20 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:45:20 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:45:23 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:45:23 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:45:24 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:45:24 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:45:25 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:45:25 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 21:55:44 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 21:55:45 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 21:55:50 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 21:55:51 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 21:55:51 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 21:55:52 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 21:55:54 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 21:55:54 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 21:55:54 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 21:55:57 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 21:55:58 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 21:55:58 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 21:55:58 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 21:56:00 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 21:56:00 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 22:01:51 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:01:51 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:02:42 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:02:43 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:02:46 INFO  TC001_AccountRegistrationTest:21 -
+			...starting TC001_Account registration test...
+2024-10-21 22:02:47 INFO  TC001_AccountRegistrationTest:26 -
+			..clicked on MyAccount...
+2024-10-21 22:02:47 INFO  TC001_AccountRegistrationTest:29 -
+			..clicked on Register...
+2024-10-21 22:02:47 INFO  TC001_AccountRegistrationTest:32 -
+			...providing customer details
+2024-10-21 22:02:51 INFO  TC001_AccountRegistrationTest:46 -
+			..validating expected message..
+2024-10-21 22:02:51 INFO  TC001_AccountRegistrationTest:51 -
+			Test passed
+2024-10-21 22:02:51 INFO  TC001_AccountRegistrationTest:69 -
+			..Finished TC001_Account Registration...
+2024-10-21 22:02:54 INFO  TC002_LoginTest:15 -
+			****starting TC002_LoginTest****
+2024-10-21 22:02:54 INFO  TC002_LoginTest:20 -
+			***clicked MyAccount****
+2024-10-21 22:02:55 INFO  TC002_LoginTest:23 -
+			***clicked login****
+2024-10-21 22:02:55 INFO  TC002_LoginTest:26 -
+			***providing login details****
+2024-10-21 22:02:56 INFO  TC002_LoginTest:35 -
+			***validating MY Account Page****
+2024-10-21 22:02:56 INFO  TC002_LoginTest:44 -
+			***finished TC002_LoginTest***
+2024-10-21 22:04:43 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 22:04:43 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 22:04:47 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-21 22:06:47 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml"
+2024-10-21 22:06:47 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\grid-docker.xml
+
+2024-10-21 22:06:51 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-21 22:08:48 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:08:48 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:08:51 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-21 22:09:24 INFO  TC006_EndToEndTest:135 -
+			***Ending TC006_EndToEndTest***
+2024-10-21 22:10:20 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:10:20 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:13:02 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:13:02 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:13:07 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***
+2024-10-21 22:14:06 DEBUG TestNG:82 -
+			suiteXmlPath: "C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml"
+2024-10-21 22:14:07 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master.xml
+
+2024-10-21 22:14:11 INFO  TC006_EndToEndTest:19 -
+			***starting TC006_EndToEndTest***

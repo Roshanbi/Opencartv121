@@ -4,31 +4,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MyAccountPage extends BasePage{
-	
-	public MyAccountPage(WebDriver driver)
-	{
+public class MyAccountPage extends BasePage {
+
+	public MyAccountPage(WebDriver driver) {
 		super(driver);
 	}
-	
-	@FindBy(xpath= "//h2[text()='My Account']")//My Account page heading
+
+	@FindBy(xpath = "//h2[text()='My Account']") // My Account page heading
 	WebElement msgHeading;
-	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")//added in step number 6
+	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']") // added in step number 6
 	WebElement lnkLogout;
-	
-	public boolean isMyAccountPageExists()
-	{
+
+	public boolean isMyAccountPageExists() {
 		try {
-		return (msgHeading.isDisplayed());
-		}
-		catch(Exception e)
-		{
+			return (msgHeading.isDisplayed());
+		} catch (Exception e) {
 			return false;
 		}
 	}
-	
-	public void clickLogout()
-	{
+
+	public void clickLogout() {
 		lnkLogout.click();
 	}
 

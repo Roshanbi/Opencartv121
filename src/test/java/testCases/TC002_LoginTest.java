@@ -9,7 +9,7 @@ import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass {
-@Test(groups= {"Regression","Master"})
+	@Test(groups = { "Regression", "Master" })
 	public void verify_Login() {
 
 		logger.info("****starting TC002_LoginTest****");
@@ -32,7 +32,9 @@ public class TC002_LoginTest extends BaseClass {
 			// MyAccount Page
 
 			MyAccountPage map = new MyAccountPage(driver);
+
 			logger.info("***validating MY Account Page****");
+
 			boolean targetpage = map.isMyAccountPageExists();
 
 			// validation

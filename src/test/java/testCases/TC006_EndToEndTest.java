@@ -62,77 +62,75 @@ public class TC006_EndToEndTest extends BaseClass {
 
 		System.out.println("Going to my account page?");
 		boolean status = map.isMyAccountPageExists();
-         System.out.println(status);
+		System.out.println(status);
 		myassert.assertEquals(status, true);// validation
-		
-		//search & add product to cart
+
+		// search & add product to cart
 		System.out.println("Search & Add product to cart...");
 		hp.enterProductName(p.getProperty("searchProductName"));
 		hp.clickSearch();
-		
-		
+
 		SearchPage sp = new SearchPage(driver);
-		if(sp.isProductExist(p.getProperty("searchProductName")))
-		{
+		if (sp.isProductExist(p.getProperty("searchProductName"))) {
 			sp.selectProduct(p.getProperty("searchProductName"));
 			sp.setQuantity("2");
 			sp.addToCart();
 		}
 		Thread.sleep(3000);
-		System.out.println("Added product to the cart?" +sp.checkCnfMsg());//validation
-		myassert.assertEquals(sp.checkCnfMsg(),true);
-		
-		
-		//shopingCart
+		System.out.println("Added product to the cart?" + sp.checkCnfMsg());// validation
+		myassert.assertEquals(sp.checkCnfMsg(), true);
+
+		// shopingCart
 		System.out.println("Shopping Cart.....");
-		
+
 		ShoppingCartPage sc = new ShoppingCartPage(driver);
 		sc.clickItemsToNavigateToCart();
 		sc.clickViewCart();
 		Thread.sleep(3000);
 		String totalPrice = sc.getTotalPrice();
-		System.out.println("total price in shopping cart: "+totalPrice);
-		myassert.assertEquals(totalPrice,"$246.40");//validation
-		sc.clickCheckout();//navigate to checkout page
+		System.out.println("total price in shopping cart: " + totalPrice);
+		myassert.assertEquals(totalPrice, "$246.40");// validation
+		sc.clickCheckout();// navigate to checkout page
 		Thread.sleep(3000);
-		
-		//checkout product
+
+		// checkout product
 		System.out.println("Checkout Product.....");
-     CheckoutPage ch = new CheckoutPage(driver);
-     ch.setFirstName(randomString().toUpperCase());
-     ch.setLastName(randomString().toUpperCase());
-     ch.setAddress1("address1");
-     ch.setAddress2("address2");
-     ch.setCity("London");
-     ch.setPostCode("SE8 4LB");
-     ch.setCountry("United Kingdom");
-     ch.setState("Kent");
- 	Thread.sleep(1000);
-     ch.clickOnContinueAfterBillingAddress();
- 	Thread.sleep(1000);
-     ch.clickOnContinueAfterDeliveryAddress();
- 	Thread.sleep(1000);
-     ch.setDeliveryMethodComment("Handle With Care");
- 	Thread.sleep(1000);
-     ch.clickOnContinueAfterDeliveryMethod();
- 	Thread.sleep(1000);
-     ch.selectTermsAndConditions();
- 	Thread.sleep(1000);
-     ch.clickOnContinueAfterPaymentMethod();
- 	Thread.sleep(1000);
-    String total_price_inOrderPage=ch.getTotalPriceBeforeConfOrder();
-    System.out.println("Total price in confirm order page:" +total_price_inOrderPage);
-    myassert.assertEquals(total_price_inOrderPage, "$254.40");//validation
-    
-   // Below code works only if you configure SMTP for emails 
-    /*ch.clickOnConfirmOrder();
-   boolean orderconf= ch.isOrderPlaced();
-   System.out.println("Is order placed? "+ orderconf);
-   myassert.assertEquals(orderconf,true);*/
-   
-   myassert.assertAll();//conclusion
-   
-   logger.info("***Ending TC006_EndToEndTest***");
+		CheckoutPage ch = new CheckoutPage(driver);
+		ch.setFirstName(randomString().toUpperCase());
+		ch.setLastName(randomString().toUpperCase());
+		ch.setAddress1("address1");
+		ch.setAddress2("address2");
+		ch.setCity("London");
+		ch.setPostCode("SE8 4LB");
+		ch.setCountry("United Kingdom");
+		ch.setState("Kent");
+		Thread.sleep(1000);
+		ch.clickOnContinueAfterBillingAddress();
+		Thread.sleep(1000);
+		ch.clickOnContinueAfterDeliveryAddress();
+		Thread.sleep(1000);
+		ch.setDeliveryMethodComment("Handle With Care");
+		Thread.sleep(1000);
+		ch.clickOnContinueAfterDeliveryMethod();
+		Thread.sleep(1000);
+		ch.selectTermsAndConditions();
+		Thread.sleep(1000);
+		ch.clickOnContinueAfterPaymentMethod();
+		Thread.sleep(1000);
+		String total_price_inOrderPage = ch.getTotalPriceBeforeConfOrder();
+		System.out.println("Total price in confirm order page:" + total_price_inOrderPage);
+		myassert.assertEquals(total_price_inOrderPage, "$254.40");// validation
+
+		// Below code works only if you configure SMTP for emails
+		/*
+		 * ch.clickOnConfirmOrder(); boolean orderconf= ch.isOrderPlaced();
+		 * System.out.println("Is order placed? "+ orderconf);
+		 * myassert.assertEquals(orderconf,true);
+		 */
+
+		myassert.assertAll();// conclusion
+
+		logger.info("***Ending TC006_EndToEndTest***");
 	}
 
 }

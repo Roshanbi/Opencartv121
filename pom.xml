@@ -23,7 +23,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<!--<suiteXmlFile>master.xml</suiteXmlFile>-->
-							<suiteXmlFile>Paralleltesting.xml</suiteXmlFile>
+							<suiteXmlFile>master.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -123,19 +123,7 @@
 		</dependency>
 
 
-		<!-- OpenTelemetry SDK for Tracing -->
-		<dependency>
-			<groupId>io.opentelemetry</groupId>
-			<artifactId>opentelemetry-sdk-trace</artifactId>
-			<version>1.42.1</version>
-		</dependency>
-
-		<!-- OpenTelemetry OTLP Exporter -->
-		<dependency>
-			<groupId>io.opentelemetry</groupId>
-			<artifactId>opentelemetry-exporter-otlp</artifactId>
-			<version>1.42.1</version>
-		</dependency>
+		
 
 
 	</dependencies>

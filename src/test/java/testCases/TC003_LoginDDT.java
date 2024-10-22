@@ -19,17 +19,16 @@ import utilities.DataProviders;
  */
 public class TC003_LoginDDT extends BaseClass {
 
-	
-	
+	// getting data provider from different class so explicitly mention .class
 	 
-	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class,groups="DataDriven")	// getting data provider from different class so explicitly mention .class
+	
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups = "DataDriven") 
 	public void verify_LoginDDT(String email, String pwd, String exp)// exp means expected results
 	{
-		
+
 		logger.info("*** starting TC003_LoginDDT ***");
 
-		try 
-		{
+		try {
 			// home page
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
@@ -47,36 +46,25 @@ public class TC003_LoginDDT extends BaseClass {
 			MyAccountPage macc = new MyAccountPage(driver);
 			boolean targetpage = macc.isMyAccountPageExists();
 
-			if (exp.equalsIgnoreCase("Valid"))
-			{
-				if (targetpage == true) 
-				{
+			if (exp.equalsIgnoreCase("Valid")) {
+				if (targetpage == true) {
 					macc.clickLogout();
 					Assert.assertTrue(true);
-				} 
-				else
-				{
+				} else {
 					Assert.assertTrue(false);// target page is false
 				}
 			}
-			if (exp.equalsIgnoreCase("Invalid")) 
-			{
-				if (targetpage == true)
-				{
+			if (exp.equalsIgnoreCase("Invalid")) {
+				if (targetpage == true) {
 					macc.clickLogout();
 					Assert.assertTrue(false);
-				} else 
-				{
+				} else {
 					Assert.assertTrue(true);// target page is true
 				}
 			}
-		} 
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			Assert.fail();
-		}
-		finally
-		{
+		} finally {
 			logger.info("***Finished TC003_LoginDDT ***");
 		}
 	}

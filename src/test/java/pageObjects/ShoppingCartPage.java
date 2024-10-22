@@ -8,43 +8,33 @@ public class ShoppingCartPage extends BasePage {
 
 	public ShoppingCartPage(WebDriver driver) {
 		super(driver);
-		
+
 	}
-	
-	
-	@FindBy(xpath="//div[@id='cart']")
+
+	@FindBy(xpath = "//div[@id='cart']")
 	WebElement btnitems;
-	@FindBy(xpath="//strong[normalize-space()='View Cart']")
+	@FindBy(xpath = "//strong[normalize-space()='View Cart']")
 	WebElement lnkViewCart;
-	@FindBy(xpath="//div[@id='content']/div[2]/div/table//strong[text()='Total:']//following::td")
-	WebElement lblTotalPrice;//246.40
-	@FindBy(xpath="//a[text()='Checkout']")
+	@FindBy(xpath = "//div[@id='content']/div[2]/div/table//strong[text()='Total:']//following::td")
+	WebElement lblTotalPrice;// 246.40
+	@FindBy(xpath = "//a[text()='Checkout']")
 	WebElement btnCheckout;
-	
-	
-	public void clickItemsToNavigateToCart()
-	{
+
+	public void clickItemsToNavigateToCart() {
 		btnitems.click();
 	}
-	
-  public void clickViewCart()
-  {
-	  lnkViewCart.click();
-  }
-  
-  
-  public String getTotalPrice()
-  {
-	return lblTotalPrice.getText();
-	  
-  }
-  public void clickCheckout()
-  {
-	  btnCheckout.click();
-  }
-  
-  
-  
-  
-  
+
+	public void clickViewCart() {
+		lnkViewCart.click();
+	}
+
+	public String getTotalPrice() {
+		return lblTotalPrice.getText();
+
+	}
+
+	public void clickCheckout() {
+		btnCheckout.click();
+	}
+
 }

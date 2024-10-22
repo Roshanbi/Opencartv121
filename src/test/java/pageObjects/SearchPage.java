@@ -47,7 +47,7 @@ public class SearchPage extends BasePage{
 	  
   }
   
-  public void selectProduct(String productName)//add to cart page
+	public void selectProduct(String productName)//add to cart page
   {
 	  for(WebElement product:searchProducts)
 	  {
