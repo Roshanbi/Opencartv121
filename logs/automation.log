@@ -80,3 +80,59 @@
 			Validating myAccount page
 2025-01-24 10:32:01 INFO  TC002_LoginTest:46 -
 			TC002_LoginTest execution completed
+2025-01-24 12:58:28 INFO  Utils:112 -
+			[TestNG] Running:
+  C:\Workspaces\Seleniumwebdriver\Opencartv121\master2.xml
+
+2025-01-24 12:58:34 INFO  TC001_AccountRegistration:16 -
+			Starting TC001_Account registration test
+2025-01-24 12:58:34 INFO  TC001_AccountRegistration:20 -
+			Clicked on account
+2025-01-24 12:58:35 INFO  TC001_AccountRegistration:23 -
+			Clicked on Register
+2025-01-24 12:58:35 INFO  TC001_AccountRegistration:26 -
+			providing customer details
+2025-01-24 12:58:37 INFO  TC001_AccountRegistration:40 -
+			Validating confirmation msg
+2025-01-24 12:58:37 INFO  TC001_AccountRegistration:52 -
+			TC001 registration test execution completed.
+2025-01-24 12:58:40 INFO  TC002_LoginTest:17 -
+			starting execution TC002_Login test
+2025-01-24 12:58:40 INFO  TC002_LoginTest:22 -
+			clicked on MyAccount link
+2025-01-24 12:58:41 INFO  TC002_LoginTest:24 -
+			clicked on Login link
+2025-01-24 12:58:41 INFO  TC002_LoginTest:28 -
+			Entering username and password...
+2025-01-24 12:58:41 INFO  TC002_LoginTest:31 -
+			clicked on Login button
+2025-01-24 12:58:42 INFO  TC002_LoginTest:36 -
+			Validating myAccount page
+2025-01-24 12:58:42 INFO  TC002_LoginTest:46 -
+			TC002_LoginTest execution completed
+2025-01-24 12:59:49 INFO  TC001_AccountRegistration:16 -
+			Starting TC001_Account registration test
+2025-01-24 12:59:50 INFO  TC001_AccountRegistration:20 -
+			Clicked on account
+2025-01-24 12:59:50 INFO  TC001_AccountRegistration:23 -
+			Clicked on Register
+2025-01-24 12:59:50 INFO  TC001_AccountRegistration:26 -
+			providing customer details
+2025-01-24 12:59:52 INFO  TC001_AccountRegistration:40 -
+			Validating confirmation msg
+2025-01-24 12:59:52 INFO  TC001_AccountRegistration:52 -
+			TC001 registration test execution completed.
+2025-01-24 12:59:56 INFO  TC002_LoginTest:17 -
+			starting execution TC002_Login test
+2025-01-24 12:59:56 INFO  TC002_LoginTest:22 -
+			clicked on MyAccount link
+2025-01-24 12:59:56 INFO  TC002_LoginTest:24 -
+			clicked on Login link
+2025-01-24 12:59:56 INFO  TC002_LoginTest:28 -
+			Entering username and password...
+2025-01-24 12:59:57 INFO  TC002_LoginTest:31 -
+			clicked on Login button
+2025-01-24 12:59:58 INFO  TC002_LoginTest:36 -
+			Validating myAccount page
+2025-01-24 12:59:58 INFO  TC002_LoginTest:46 -
+			TC002_LoginTest execution completed
