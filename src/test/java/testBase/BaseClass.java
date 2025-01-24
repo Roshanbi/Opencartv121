@@ -19,7 +19,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.http.ClientConfig;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -29,9 +28,8 @@ import org.apache.logging.log4j.Logger; //log4j
 public class BaseClass {
 
 	// reusable methods
-	// public static WebDriver driver; //for capture screenshot make it static other
-	// wise remove static
-	public WebDriver driver;// we created Baseclass obj in Extendreport that is another driver there so it
+  public static WebDriver driver; //for capture screenshot make it static other wise remove static and dont callcapture method.comment that part
+	//public WebDriver driver;// we created Baseclass obj in Extendreport that is another driver there so it
 							// will be conflict so making static
 	public Logger logger;
 	public Properties p;
@@ -49,7 +47,7 @@ public class BaseClass {
 
 		// reading mode- ./indicates whichever project we are working on
 
-		FileReader file = new FileReader("./src//test//resources//config.properties");
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
 		p = new Properties();
 		p.load(file);
 		// this represent class name.we are dynamically taking class name whichever TC
@@ -146,18 +144,19 @@ public class BaseClass {
 		return (generatedstring + "@" + generatednumber);
 	}
 
+	//when test fails screenshot will take and attach to the file
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-
+				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-
-		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp;
-		File targetFile = new File(targetFilePath);
-
+		
+		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile=new File(targetFilePath);
+		
 		sourceFile.renameTo(targetFile);
-
+			
 		return targetFilePath;
 
 	}

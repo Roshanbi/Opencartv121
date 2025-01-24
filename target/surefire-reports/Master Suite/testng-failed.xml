@@ -4,24 +4,24 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" verbose="0">
+  <test thread-count="5" name="ChromeTest(failed)" verbose="0">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="Practice_Testcases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verify_account_Registration"/>
+          <include name="verify_LoginTest"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-      <class name="testCases.TC002_LoginTest">
+      </class> <!-- Practice_Testcases.TC002_LoginTest -->
+      <class name="Practice_Testcases.TC001_AccountRegistration">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_Account_Registration"/>
           <include name="setUp"/>
-          <include name="verify_Login"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- Practice_Testcases.TC001_AccountRegistration -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

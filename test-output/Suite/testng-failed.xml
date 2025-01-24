@@ -4,17 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Chrometest(failed)">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="Practice_Testcases.TC003_LoginDDT">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_LoginDDT" invocation-numbers="1 2"/>
           <include name="setUp"/>
-          <include name="verify_account_Registration"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- Practice_Testcases.TC003_LoginDDT -->
     </classes>
-  </test> <!-- Chrometest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

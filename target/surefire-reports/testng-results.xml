@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T23:50:58 BST" name="Suite" finished-at="2024-10-20T23:51:22 BST" duration-ms="24014">
+  <suite started-at="2025-01-24T10:31:45 GMT" name="Master Suite" finished-at="2025-01-24T10:32:01 GMT" duration-ms="16022">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@792bbc74]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@505a9d7c]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@30d4b288]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4cc6fa2a]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a791b66]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6f2cb653]" name="verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistration.verify_Account_Registration()[pri:0, instance:Practice_Testcases.TC001_AccountRegistration@19c65cdc]" name="verify_Account_Registration" class="Practice_Testcases.TC001_AccountRegistration"/>
+        <method signature="TC002_LoginTest.verify_LoginTest()[pri:0, instance:Practice_Testcases.TC002_LoginTest@49c66ade]" name="verify_LoginTest" class="Practice_Testcases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@792bbc74]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@30d4b288]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC001_AccountRegistrationTest.verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a791b66]" name="verify_account_Registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verify_LoginTest()[pri:0, instance:Practice_Testcases.TC002_LoginTest@49c66ade]" name="verify_LoginTest" class="Practice_Testcases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@505a9d7c]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@4cc6fa2a]" name="verify_Login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6f2cb653]" name="verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistration.verify_Account_Registration()[pri:0, instance:Practice_Testcases.TC001_AccountRegistration@19c65cdc]" name="verify_Account_Registration" class="Practice_Testcases.TC001_AccountRegistration"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-10-20T23:50:58 BST" name="Chrometest" finished-at="2024-10-20T23:51:18 BST" duration-ms="20155">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@505a9d7c]" started-at="2024-10-20T23:51:11 BST" name="setUp" finished-at="2024-10-20T23:51:15 BST" duration-ms="4600" status="PASS">
+    <test started-at="2025-01-24T10:31:45 GMT" name="ChromeTest" finished-at="2025-01-24T10:32:01 GMT" duration-ms="16022">
+      <class name="Practice_Testcases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Practice_Testcases.TC001_AccountRegistration@19c65cdc]" started-at="2025-01-24T10:31:46 GMT" name="setUp" finished-at="2025-01-24T10:31:50 GMT" duration-ms="4781" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,17 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@505a9d7c]" started-at="2024-10-20T23:51:15 BST" name="verify_Login" finished-at="2024-10-20T23:51:18 BST" duration-ms="2413" status="PASS">
+        <test-method signature="verify_Account_Registration()[pri:0, instance:Practice_Testcases.TC001_AccountRegistration@19c65cdc]" started-at="2025-01-24T10:31:50 GMT" name="verify_Account_Registration" finished-at="2025-01-24T10:31:54 GMT" duration-ms="3766" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@505a9d7c]" started-at="2024-10-20T23:51:18 BST" name="tearDown" finished-at="2024-10-20T23:51:18 BST" duration-ms="280" status="PASS">
+        </test-method> <!-- verify_Account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Practice_Testcases.TC001_AccountRegistration@19c65cdc]" started-at="2025-01-24T10:31:54 GMT" name="tearDown" finished-at="2025-01-24T10:31:54 GMT" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@792bbc74]" started-at="2024-10-20T23:50:58 BST" name="setUp" finished-at="2024-10-20T23:51:01 BST" duration-ms="2556" status="PASS">
+      </class> <!-- Practice_Testcases.TC001_AccountRegistration -->
+      <class name="Practice_Testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Practice_Testcases.TC002_LoginTest@49c66ade]" started-at="2025-01-24T10:31:54 GMT" name="setUp" finished-at="2025-01-24T10:31:58 GMT" duration-ms="4003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,165 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@792bbc74]" started-at="2024-10-20T23:51:01 BST" name="verify_account_Registration" finished-at="2024-10-20T23:51:08 BST" duration-ms="6881" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC001_AccountRegistrationTest.verify_account_Registration(TC001_AccountRegistrationTest.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verify_LoginTest()[pri:0, instance:Practice_Testcases.TC002_LoginTest@49c66ade]" started-at="2025-01-24T10:31:58 GMT" name="verify_LoginTest" finished-at="2025-01-24T10:32:01 GMT" duration-ms="2607" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@792bbc74]" started-at="2024-10-20T23:51:10 BST" name="tearDown" finished-at="2024-10-20T23:51:11 BST" duration-ms="1283" status="PASS">
+        </test-method> <!-- verify_LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Practice_Testcases.TC002_LoginTest@49c66ade]" started-at="2025-01-24T10:32:01 GMT" name="tearDown" finished-at="2025-01-24T10:32:01 GMT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- Chrometest -->
-    <test started-at="2024-10-20T23:50:58 BST" name="firefoxtest" finished-at="2024-10-20T23:51:22 BST" duration-ms="24014">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6f2cb653]" started-at="2024-10-20T23:51:11 BST" name="setUp" finished-at="2024-10-20T23:51:20 BST" duration-ms="8850" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6f2cb653]" started-at="2024-10-20T23:51:20 BST" name="verify_Login" finished-at="2024-10-20T23:51:21 BST" duration-ms="1523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@6f2cb653]" started-at="2024-10-20T23:51:21 BST" name="tearDown" finished-at="2024-10-20T23:51:22 BST" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a791b66]" started-at="2024-10-20T23:50:58 BST" name="setUp" finished-at="2024-10-20T23:51:06 BST" duration-ms="7129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verify_account_Registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a791b66]" started-at="2024-10-20T23:51:06 BST" name="verify_account_Registration" finished-at="2024-10-20T23:51:10 BST" duration-ms="4297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a791b66]" started-at="2024-10-20T23:51:10 BST" name="tearDown" finished-at="2024-10-20T23:51:11 BST" duration-ms="1084" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [aa0ed5a0-e74d-4db1-aa89-dec7afee62a6, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:46612, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13928, moz:profile: C:\Users\rosha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46612/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [aa0ed5a0-e74d-4db1-aa89-dec7afee62a6, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:debuggerAddress: 127.0.0.1:46612, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13928, moz:profile: C:\Users\rosha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46612/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
-at testBase.BaseClass.tearDown(BaseClass.java:108)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.lang.NullPointerException
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:398)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- firefoxtest -->
-  </suite> <!-- Suite -->
+      </class> <!-- Practice_Testcases.TC002_LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Master Suite -->
 </testng-results>

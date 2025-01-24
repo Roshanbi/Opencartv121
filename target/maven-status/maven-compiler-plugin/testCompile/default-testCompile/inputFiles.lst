@@ -1,3 +1,4 @@
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Base\BaseClass.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\AccountRegistrationPage.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\BasePage.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\CheckoutPage.java
@@ -6,6 +7,14 @@ C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\LoginPage
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\MyAccountPage.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\SearchPage.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\pageObjects\ShoppingCartPage.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practice_Testcases\TC001_AccountRegistration.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practice_Testcases\TC002_LoginTest.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practice_Testcases\TC003_LoginDDT.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practiec_PageObjects\AccountRegistrationPage.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practiec_PageObjects\BasePage.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practiec_PageObjects\HomePage.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practiec_PageObjects\LoginPage.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\Practiec_PageObjects\MyAccountPage.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testBase\BaseClass.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testCases\TC002_LoginTest.java
@@ -14,5 +23,6 @@ C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testCases\TC004_Searc
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testCases\TC005_AddToCartTest.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\testCases\TC006_EndToEndTest.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\utilities\DataProviders.java
+C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\utilities\DataProviders1.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\utilities\ExcelUtility.java
 C:\Workspaces\Seleniumwebdriver\Opencartv121\src\test\java\utilities\ExtentReportManager.java

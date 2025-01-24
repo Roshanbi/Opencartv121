@@ -27,6 +27,10 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseClass;
 
+
+
+
+
 //public class ExtentReportManage implements ITestListener {
 //Extended BaseClass so that each report can have its own driver as static driver variable
 //having issues in running parallel test executions
@@ -85,22 +89,21 @@ public class ExtentReportManager extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
-
-		test.log(Status.FAIL, result.getName() + " got failed");
+		
+		test.log(Status.FAIL,result.getName()+" got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
-
-		try {
-			// String imgPath = new
-			// BaseClass().captureScreen(result.getName());//captureScreenshot is common for
-			// all methods so in Baseclass add capturescreen method
-			String imgPath = captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath); // attached screenshot
-													// we can't call directly capturescreen method so we created object
-													// for baseclass
+		
+		//uncomment when u want sceenshot of failure method and make baseclass driver static
+	/*	try {
+			String imgPath = new BaseClass().captureScreen(result.getName());
+			test.addScreenCaptureFromPath(imgPath);
+			
 		} catch (IOException e1) {
 			e1.printStackTrace();
-		}
+		}*/
 	}
+		
+		
 
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
