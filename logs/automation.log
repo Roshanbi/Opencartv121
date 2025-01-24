@@ -136,3 +136,29 @@
 			Validating myAccount page
 2025-01-24 12:59:58 INFO  TC002_LoginTest:46 -
 			TC002_LoginTest execution completed
+2025-01-24 13:09:27 INFO  TC001_AccountRegistration:16 -
+			Starting TC001_Account registration test
+2025-01-24 13:09:27 INFO  TC001_AccountRegistration:20 -
+			Clicked on account
+2025-01-24 13:09:28 INFO  TC001_AccountRegistration:23 -
+			Clicked on Register
+2025-01-24 13:09:28 INFO  TC001_AccountRegistration:26 -
+			providing customer details
+2025-01-24 13:09:30 INFO  TC001_AccountRegistration:40 -
+			Validating confirmation msg
+2025-01-24 13:09:30 INFO  TC001_AccountRegistration:52 -
+			TC001 registration test execution completed.
+2025-01-24 13:09:33 INFO  TC002_LoginTest:17 -
+			starting execution TC002_Login test
+2025-01-24 13:09:33 INFO  TC002_LoginTest:22 -
+			clicked on MyAccount link
+2025-01-24 13:09:33 INFO  TC002_LoginTest:24 -
+			clicked on Login link
+2025-01-24 13:09:33 INFO  TC002_LoginTest:28 -
+			Entering username and password...
+2025-01-24 13:09:34 INFO  TC002_LoginTest:31 -
+			clicked on Login button
+2025-01-24 13:09:35 INFO  TC002_LoginTest:36 -
+			Validating myAccount page
+2025-01-24 13:09:35 INFO  TC002_LoginTest:46 -
+			TC002_LoginTest execution completed
