@@ -10,9 +10,9 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!--<class name="Practice_Testcases.TC001_AccountRegistration" />-->
-			<!--<class name="Practice_Testcases.TC002_LoginTest"/>-->
-			<class name = "Practice_Testcases.TC003_LoginDDT"/>
+			<class name="Practice_Testcases.TC001_AccountRegistration" />
+			<class name="Practice_Testcases.TC002_LoginTest"/>
+			<!--<class name = "Practice_Testcases.TC003_LoginDDT"/>-->
 		</classes>
 	</test>
 
@@ -20,8 +20,8 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="edge" />
 		<classes>
-			<!--<class name="Practice_Testcases.TC001_AccountRegistration" />-->
-			<!--<class name="Practice_Testcases.TC002_LoginTest"/>-->
+			<class name="Practice_Testcases.TC001_AccountRegistration" />
+			<class name="Practice_Testcases.TC002_LoginTest"/>
 		 <!--<class name = "Practice_Testcases.TC003_LoginDDT"/>-->
 		</classes>
 	</test>
@@ -30,8 +30,8 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<!--<class name="Practice_Testcases.TC001_AccountRegistration" />-->
-			<!--<class name="Practice_Testcases.TC002_LoginTest"/>-->
+			<class name="Practice_Testcases.TC001_AccountRegistration" />
+			<class name="Practice_Testcases.TC002_LoginTest"/>
 			<!-- <class name = "Practice_Testcases.TC003_LoginDDT"/>-->
 		</classes>
 	</test>
